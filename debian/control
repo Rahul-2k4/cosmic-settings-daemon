@@ -19,13 +19,13 @@ Package: cosmic-settings-daemon
 Architecture: amd64 arm64
 Depends:
   acpid,
-  adw-gtk3,
   qt5ct,
   qt6ct,
-  pop-sound-theme,
   ${misc:Depends},
   ${shlibs:Depends}
 Recommends:
+  adw-gtk3,
+  pop-sound-theme,
   breeze-icon-theme,
   playerctl,
 Description: Cosmic settings daemon
