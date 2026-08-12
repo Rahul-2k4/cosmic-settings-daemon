@@ -1,5 +1,7 @@
 #!/usr/bin/make -f
 
+export PATH := /home/rahul/.cargo/bin:$(PATH)
+
 CLEAN ?= 1
 VENDOR ?= 1
 
