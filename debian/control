@@ -28,4 +28,8 @@ Recommends:
   pop-sound-theme,
   breeze-icon-theme,
   playerctl,
-Description: Cosmic settings daemon
+Description: settings daemon for the COSMIC desktop
+ The cosmic-settings-daemon process provides the D-Bus settings service used by
+ the COSMIC desktop. It handles settings-related integration such as display
+ brightness, audio volume, input-source switching, accessibility state, and
+ configuration and state change notifications.

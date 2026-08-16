@@ -1,0 +1,22 @@
+.TH COSMIC-SETTINGS-DAEMON 1 "2026-08-16" "cosmic-settings-daemon" "User Commands"
+.SH NAME
+cosmic-settings-daemon \- settings D-Bus service for the COSMIC desktop
+.SH SYNOPSIS
+.B cosmic-settings-daemon
+.SH DESCRIPTION
+.B cosmic-settings-daemon
+provides the
+.B com.system76.CosmicSettingsDaemon
+D-Bus service used by the COSMIC desktop. It monitors COSMIC configuration and
+state directories and exposes settings operations including display brightness,
+audio volume, input-source switching, and accessibility state.
+.PP
+The daemon is normally started by the desktop session or its service manager.
+.SH OPTIONS
+This program does not accept command-line options.
+.SH SEE ALSO
+.BR systemd.service (5),
+.BR dbus-daemon (1)
+.SH COPYRIGHT
+Copyright 2023 System76. Licensed under the GNU General Public License,
+version 3 only.

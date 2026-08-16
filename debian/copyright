@@ -1,0 +1,36 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: cosmic-settings-daemon
+Source: https://github.com/pop-os/cosmic-settings-daemon
+
+Files: *
+Copyright: 2023 System76 <info@system76.com>
+License: GPL-3.0-only
+ The cosmic-settings-daemon source is licensed under the GNU General Public
+ License, version 3 only.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 3 can be found in the file /usr/share/common-licenses/GPL-3.
+
+Files: src/pipewire.rs
+Copyright: 2023 System76 <info@system76.com>
+License: MPL-2.0
+ The file above is licensed under the Mozilla Public License, version 2.0.
+ .
+ On Debian systems, the complete text of the Mozilla Public License, version
+ 2.0 can be found in the file /usr/share/common-licenses/MPL-2.0.
+
+Files: config/src/* config/src/shortcuts/*
+License: MPL-2.0
+ The files above are licensed under the Mozilla Public License, version 2.0.
+ .
+ On Debian systems, the complete text of the Mozilla Public License, version
+ 2.0 can be found in the file /usr/share/common-licenses/MPL-2.0.
+
+Files: src/input.rs
+Copyright: 2025 System76 <info@system76.com>
+License: GPL-3.0-only
+ The file above is licensed under the GNU General Public License, version 3
+ only.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 3 can be found in the file /usr/share/common-licenses/GPL-3.
