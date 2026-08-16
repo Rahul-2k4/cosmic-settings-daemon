@@ -4,33 +4,39 @@ Source: https://github.com/pop-os/cosmic-settings-daemon
 
 Files: *
 Copyright: 2023 System76 <info@system76.com>
+License: GPL-3.0-or-later
+
+Files: src/main.rs src/input.rs
+Copyright: 2023 System76 <info@system76.com>
+ 2025 System76 <info@system76.com>
 License: GPL-3.0-only
- The cosmic-settings-daemon source is licensed under the GNU General Public
- License, version 3 only.
- .
- On Debian systems, the complete text of the GNU General Public License
- version 3 can be found in the file /usr/share/common-licenses/GPL-3.
 
 Files: src/pipewire.rs
 Copyright: 2023 System76 <info@system76.com>
 License: MPL-2.0
- The file above is licensed under the Mozilla Public License, version 2.0.
- .
- On Debian systems, the complete text of the Mozilla Public License, version
- 2.0 can be found in the file /usr/share/common-licenses/MPL-2.0.
 
 Files: config/src/* config/src/shortcuts/*
+Copyright: 2024-2025 System76 <info@system76.com>
 License: MPL-2.0
- The files above are licensed under the Mozilla Public License, version 2.0.
+
+License: GPL-3.0-or-later
+ The cosmic-settings-daemon package is licensed under the GNU General Public
+ License, version 3 or later, as declared by the upstream Cargo package
+ metadata.
+ .
+ On Debian systems, the complete text of the GNU General Public License,
+ version 3, can be found in the file /usr/share/common-licenses/GPL-3.
+
+License: GPL-3.0-only
+ The files listed above are licensed under the GNU General Public License,
+ version 3 only, as declared by their source SPDX notices.
+ .
+ On Debian systems, the complete text of the GNU General Public License,
+ version 3, can be found in the file /usr/share/common-licenses/GPL-3.
+
+License: MPL-2.0
+ The files listed above are licensed under the Mozilla Public License, version
+ 2.0, as declared by their source SPDX notices.
  .
  On Debian systems, the complete text of the Mozilla Public License, version
  2.0 can be found in the file /usr/share/common-licenses/MPL-2.0.
-
-Files: src/input.rs
-Copyright: 2025 System76 <info@system76.com>
-License: GPL-3.0-only
- The file above is licensed under the GNU General Public License, version 3
- only.
- .
- On Debian systems, the complete text of the GNU General Public License
- version 3 can be found in the file /usr/share/common-licenses/GPL-3.
