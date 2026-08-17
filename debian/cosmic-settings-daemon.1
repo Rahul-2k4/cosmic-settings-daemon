@@ -1,0 +1,29 @@
+.TH COSMIC-SETTINGS-DAEMON 1 August 2026 cosmic-settings-daemon 0.1.0 User Commands
+.SH NAME
+cosmic-settings-daemon \- D-Bus settings service for the COSMIC desktop
+.SH SYNOPSIS
+.B /usr/bin/cosmic-settings-daemon
+.SH DESCRIPTION
+.B cosmic-settings-daemon
+provides COSMIC settings and state services over D-Bus. It watches
+configuration changes and handles audio, display brightness, input-source,
+and accessibility services.
+.PP
+The service acquires the D-Bus name
+.B com.system76.CosmicSettingsDaemon
+and exports its primary object at
+.BR /com/system76/CosmicSettingsDaemon .
+.SH OPTIONS
+This program has no command-line options.
+.SH ENVIRONMENT
+.B RUST_LOG
+selects the log level supported by the Rust
+.B env_logger
+backend.
+.SH SEE ALSO
+.BR dbus-daemon (1)
+.SH AUTHOR
+Written by System76.
+.SH COPYRIGHT
+Copyright 2023 System76. Licensed under the GNU General Public License,
+version 3.
